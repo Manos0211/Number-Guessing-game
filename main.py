@@ -18,7 +18,7 @@ def number_guessing_game():
         chances = 5
         print("You have 5 tries.")
     else:
-        choice = "3"
+        chances= 3
         print("You have 3 tries")
     number = random.randint(1, 100)
     attempts = 0
