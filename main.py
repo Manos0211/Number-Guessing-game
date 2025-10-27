@@ -36,6 +36,7 @@ def number_guessing_game():
         if guess == number:
             print(
                 f" Congratulations! You guessed the correct number in {attempts} attempts.")
+            input("Press enter to exit")
             game_over = True
         elif guess < number:
             print(f" The number is higher than {guess}")
